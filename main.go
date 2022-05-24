@@ -170,7 +170,7 @@ func init() {
 	w := flag.Bool("w", false, "Enable warning level log and higher.")
 	h := flag.Bool("h", false, "Display this help.")
 	// 直接写死 AccessToken 时，请更改下面第二个参数
-	token := flag.String("t", "居头小猫猫", "Set AccessToken of WSClient.")
+	token := flag.String("t", "椛椛", "Set AccessToken of WSClient.")
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
